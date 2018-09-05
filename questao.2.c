@@ -9,21 +9,12 @@ int main()
     q = &j;
     int x, y;
 
-    x = (*p - *q);
     y = (3 - *p/(*q) + 7);
 
-    if (p == &i)   //sao iguais.
-    {
-        printf("sim");
-    }
-    else
-        printf("nao");
-    printf("\n");
-    printf("%d", x);    //-2
-    printf("\n");
-    printf("%d", **&p);     //3
-    printf("\n");
-    printf("%d", y);     //10
+    p == &i  //verdadeira (valor igual a 1).
+    *p - *q  //valor eh -2
+    **&p     //valor eh 3
+    3 - *p/(*q) + 7    //valor eh 10
 
     return 0;
 }
