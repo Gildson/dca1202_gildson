@@ -13,7 +13,7 @@ int main()
     printf("\n");
     printf("%d", p = &*&i);
     printf("\n");
-    //printf("%d", i = (*&)j);  //expressão de atribuição ilegal
+    // a expressao i = (*&)j eh uma expressão de atribuição ilegal.
     printf("%d", i = *&j);
     printf("\n");
     printf("%d", i = *&*&j);
