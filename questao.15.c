@@ -31,7 +31,7 @@ int main()
         x[i] = rand()%10;
     }
 
-    //Chama a funcao qsort (v = vetor; n = quantidade de numeros; sizeof(float) = tamanho do especo de memoria; comparador = funcao utilizada
+    //Chama a funcao qsort (x = vetor; n = quantidade de numeros; sizeof(float) = tamanho do especo de memoria; comparador = funcao utilizada
     //para comparar os valores do vetor)
     qsort(x, n, sizeof(float), Comparador);
 
